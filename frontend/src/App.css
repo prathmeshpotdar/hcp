@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.left-panel {
+  width: 70%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px;
+  background: #fff;
+  border-right: 1px solid #ddd;
+}
+
+.right-panel {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background: #ffffff;
+}

@@ -1,0 +1,143 @@
+/* ROOT */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+/* TWO COLUMN LAYOUT */
+.layout {
+  display: flex;
+  gap: 20px;
+  height: 90vh;
+}
+
+/* LEFT FORM */
+.form-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+}
+
+.form-section h2 {
+  margin-top: 0;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.materials-box {
+  background: #fafafa;
+  border: 1px dashed #ccc;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  flex: 1;
+}
+
+.sentiment-row {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.sent-option {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* RIGHT CHAT */
+.chat-section {
+  width: 35%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 15px;
+  background: #f2faff;
+  border-radius: 8px;
+  overflow-y: scroll;
+  border: 1px solid #c7e7ff;
+}
+
+.bubble {
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.bubble.user {
+  background: #d9eaff;
+  align-self: flex-end;
+}
+
+.bubble.ai {
+  background: #e7ffe7;
+  border-left: 4px solid #3bb33b;
+}
+
+.bubble.info {
+  background: #dff4ff;
+  border-left: 4px solid #0095ff;
+}
+
+.chat-input-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}
+
+.log-btn {
+  background: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
